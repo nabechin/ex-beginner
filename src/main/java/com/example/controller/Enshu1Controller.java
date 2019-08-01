@@ -15,6 +15,9 @@ public class Enshu1Controller {
 		return new Enshu1Form();
 		
 	}
-	
+	@RequestMapping("")
+	public String index() {
+		return "exam01";
+	}
 	
 }
