@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="exam01-result"
+    th:action="@{/enshu01/receive-form}" th:object="${enshu01Form}">
+名前:<input type="text" name="name" th:field="*{name}"><br>
+<button>送信</button>    
+    
+    </form>
+</body>
+</html>
