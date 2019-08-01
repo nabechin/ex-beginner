@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+数字を入力してください
+<form action="exam02-result.html"
+     th:action="@{/enshu2/receive-form}" th:object="${calculationForm}">
+     <input type="text" name="num1" th:field="*{num1}">+<input type="text" name="num2" th:field="*{num2}">=<br>
+     <button>足し算をする</button>
+     
+     
+     
+     
+     </form>
+</body>
+</html>

@@ -5,11 +5,11 @@ public class CalculationForm {
 	private String num1;
 	private String num2;
 
-	public int getIntegerNum1() {
+	public int getIntNum1() {
 		return Integer.parseInt(num1);
 	}
 
-	public int getIntegerNum2() {
+	public int getIntNum2() {
 		return Integer.parseInt(num2);
 	}
 
